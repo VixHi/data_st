@@ -20,8 +20,9 @@ func main() {
 	sqlist.listInsert(3, ElemType(9))
 	fmt.Println(sqlist.data, sqlist.length)
 
-	//获取元素
+	//获取元素 第几个元素
 	fmt.Println(sqlist.getElem(2))
+	fmt.Println(sqlist.getElem(100))
 
 	//删除元素
 	sqlist.listDelete(4)
@@ -37,5 +38,4 @@ func main() {
 
 	//判断线性表是否为空
 	fmt.Println(sqlist.listEmpty())
-
 }
